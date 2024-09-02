@@ -1,4 +1,4 @@
-package dev.spring.project1.step01.factory;
+package dev.spring.project1.step01;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

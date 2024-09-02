@@ -1,4 +1,4 @@
-package dev.spring.project1.step01.factory;
+package dev.spring.project1.step01;
 
 public class TapeCompanyFactory {
     public static TapeReader createTapeReader(){
