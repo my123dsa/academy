@@ -19,6 +19,9 @@ public class TapeReader {
         }else
             System.out.println("사기");
     }
+
+    //여기서 Tape 주입함
+
     @Autowired
     public TapeReader( Tape tape) {
         this.tape = tape;
