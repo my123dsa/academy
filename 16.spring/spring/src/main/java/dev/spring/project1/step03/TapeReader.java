@@ -19,15 +19,7 @@ public class TapeReader {
         }else
             System.out.println("사기");
     }
-// setter기반 주입
-//    public void setTape(Tape tape) {
-//        System.out.println("여기 호출됨");
-//        this.tape = tape;
-//    }
 
-//    public TapeReader(Tape tape){
-//        this.tape = tape;
-//    }
     public static TapeReader createTapeReader(Tape tape) {
         return new TapeReader(tape);
     }
