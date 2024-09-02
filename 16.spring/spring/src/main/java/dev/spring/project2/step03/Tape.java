@@ -9,7 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
 @Getter
 //@Setter
 //@AllArgsConstructor
-@NoArgsConstructor
+//@NoArgsConstructor
 public class Tape {
 
     private String name;

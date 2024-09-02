@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 //@Setter
 @Getter
 //@AllArgsConstructor
-@NoArgsConstructor
+//@NoArgsConstructor
 public class TapeReader {
 
     private Tape tape;
