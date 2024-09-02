@@ -12,5 +12,5 @@
     <context:annotation-config />
 
     <bean class="dev.spring.project2.step02.TapeReader" />
-    <bean class="dev.spring.project2.step02.Tape" id="tape" />
+    <bean class="dev.spring.project2.step02.Tape"/>
 </beans>

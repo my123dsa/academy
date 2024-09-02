@@ -17,13 +17,13 @@ public class Tape {
 
     private boolean isWorked;
 
-    @Value("너의 이름은")
-    public void setName(String name) {
+
+    public void setName(@Value("너의 이름은") String name) {
         this.name = name;
     }
 
-    @Value("true")
-    public void setWorked(boolean worked) {
+
+    public void setWorked(@Value("true") boolean worked) {
         isWorked = worked;
     }
 }
