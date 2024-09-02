@@ -1,6 +1,5 @@
 package dev.spring.project1.step02;
 
-import dev.spring.project1.step01.factory.TapeReader;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
