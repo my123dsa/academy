@@ -3,14 +3,16 @@ package dev.spring.project1.step01;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.RequiredArgsConstructor;
 
 //@Setter
 @Getter
 @AllArgsConstructor
-@NoArgsConstructor
+//@NoArgsConstructor
+@RequiredArgsConstructor
 public class TapeReader {
 
-    private Tape tape;
+    private final Tape tape;
 
     public void test() {
         if(tape.isWorked()){
@@ -18,10 +20,10 @@ public class TapeReader {
         }else
             System.out.println("사기");
     }
-// setter기반 주입
-    public void setTape(Tape tape) {
-        System.out.println("여기 호출됨");
-        this.tape = tape;
-    }
+//// setter기반 주입
+//    public void setTape(Tape tape) {
+//        System.out.println("여기 호출됨");
+//        this.tape = tape;
+//    }
 
 }
