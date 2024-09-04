@@ -1,0 +1,25 @@
+spring:
+  application:
+   name: 18.spring-mvc-practice
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/petclinic?serverTimezone=UTC&characterEncoding=UTF-8
+    username: user
+    password: 1234
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+
+
+
+  messages:
+    basename: messages/messages
+
+server:
+  port: 8081
